@@ -16,22 +16,22 @@ const matchFound = [];
 
 result.forEach((prop, index) => {
   matchFound.push(
-    `Name = ${prop.name}, Marks = ${prop.markPerSub.ban}, GPA = ${
+    `Name = ${prop.name}, Bangla = ${prop.markPerSub.ban}, GPA = ${
       getResult(prop.markPerSub.ban).gpa
     }, Grade = ${getResult(prop.markPerSub.ban).grade}
-    Marks = ${prop.markPerSub.eng}, GPA = ${
+    English = ${prop.markPerSub.eng}, GPA = ${
       getResult(prop.markPerSub.eng).gpa
     }, Grade = ${getResult(prop.markPerSub.eng).grade}
-    Marks = ${prop.markPerSub.math}, GPA = ${
+    Math = ${prop.markPerSub.math}, GPA = ${
       getResult(prop.markPerSub.math).gpa
     }, Grade = ${getResult(prop.markPerSub.math).grade}
-    Marks = ${prop.markPerSub.science}, GPA = ${
+    Science = ${prop.markPerSub.science}, GPA = ${
       getResult(prop.markPerSub.science).gpa
     }, Grade = ${getResult(prop.markPerSub.science).grade}
-    Marks = ${prop.markPerSub.socialScience}, GPA = ${
+    Social Science = ${prop.markPerSub.socialScience}, GPA = ${
       getResult(prop.markPerSub.socialScience).gpa
     }, Grade = ${getResult(prop.markPerSub.socialScience).grade}
-    Marks = ${prop.markPerSub.religion}, GPA = ${
+    Religion = ${prop.markPerSub.religion}, GPA = ${
       getResult(prop.markPerSub.religion).gpa
     }, Grade = ${getResult(prop.markPerSub.religion).grade}`
   );
